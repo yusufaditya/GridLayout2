@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/grid1"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:columnCount="4"
+    android:rowCount="3"
+    tools:context=".GridLayoutActivity">
+
+    <TextView
+        android:id="@+id/GridA"
+        android:layout_marginTop="20dp"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_row="0"
+        android:layout_column="0"
+        android:layout_gravity="left|top"
+        android:text="A"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/GridB"
+        android:layout_marginTop="20dp"
+        android:textAlignment="center"
+        android:layout_height="50dp"
+        android:layout_width="50dp"
+        android:layout_gravity="left|top"
+        android:text="B"/>
+    <TextView
+        android:id="@+id/GridC"
+        android:layout_marginTop="20dp"
+        android:textAlignment="center"
+        android:layout_height="50dp"
+        android:layout_width="50dp"
+        android:layout_gravity="left|top"
+        android:text="C"/>
+    <TextView
+        android:id="@+id/GridD"
+        android:layout_marginTop="20dp"
+        android:textAlignment="center"
+        android:layout_height="50dp"
+        android:layout_width="50dp"
+        android:layout_gravity="left|top"
+        android:text="D"/>
+    <TextView
+        android:id="@+id/GridE"
+
+        android:textAlignment="center"
+        android:layout_height="50dp"
+        android:layout_width="50dp"
+        android:layout_gravity="left|top"
+        android:text="E"/>
+    <TextView
+        android:id="@+id/GridF"
+        android:textAlignment="center"
+        android:layout_height="50dp"
+        android:layout_width="50dp"
+        android:layout_gravity="left|top"
+        android:text="F"/>
+    <TextView
+        android:id="@+id/GridG"
+        android:textAlignment="center"
+        android:layout_height="50dp"
+        android:layout_width="50dp"
+        android:layout_gravity="left|top"
+        android:text="G"/>
+    <TextView
+        android:id="@+id/GridH"
+        android:textAlignment="center"
+        android:layout_height="50dp"
+        android:layout_width="50dp"
+        android:layout_gravity="left|top"
+        android:text="H"/>
+    <TextView
+        android:id="@+id/GridI"
+        android:textAlignment="center"
+        android:layout_height="50dp"
+        android:layout_width="50dp"
+        android:layout_gravity="left|top"
+        android:text="I"/>
+    <TextView
+        android:id="@+id/GridJ"
+        android:textAlignment="center"
+        android:layout_height="50dp"
+        android:layout_width="50dp"
+        android:layout_gravity="left|top"
+        android:text="J"/>
+    <TextView
+        android:id="@+id/GridK"
+        android:textAlignment="center"
+        android:layout_height="50dp"
+        android:layout_width="50dp"
+        android:layout_gravity="left|top"
+        android:text="K"/>
+    <TextView
+        android:id="@+id/GridL"
+        android:textAlignment="center"
+        android:layout_height="50dp"
+        android:layout_width="50dp"
+        android:layout_gravity="left|top"
+        android:text="L"/>
+
+
+</GridLayout>
